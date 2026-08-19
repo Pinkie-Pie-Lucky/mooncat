@@ -1,6 +1,6 @@
 import './styles.css';
 import desktopResultBackground from './assets/result-envelope-background.png';
-import mobileResultBackground from './assets/mobile-result-envelope.png';
+import mobileResultBackground from './assets/mobile-result-envelope-expanded.png';
 
 const catAssets = import.meta.glob('./assets/cats/*.png', { eager: true, query: '?url', import: 'default' });
 
